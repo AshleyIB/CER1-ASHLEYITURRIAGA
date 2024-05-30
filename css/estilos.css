@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f5e3c4;
+}
+
+#nav{
+    background-color: #e7a431;
+}
+
+.teatro{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.teatro2{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f4f4f4;
+}
+.btnTeatro{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#uno{
+    height: 50vh;
+    width: 100%;
+    margin: 0;
+}
+
+#dos,#tres,#cuatro,#cinco,#seis,#siete{
+    height: 25vh;
+    width: 100%;
+    float: left;
+}
+
+#ocho{
+    height: 88vh;
+    width: 100%;
+    vertical-align: top;
+}
+
+#titulo{
+    align-items: center;
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    color: #644817;
+}
+#text{
+    align-items: top;
+    display: flex;
+    justify-content: center;
+    color: #644817;
+}
+
+footer{
+    background: #a96c1c;
+    color: #fff;
+    text-align: center;
+    height: 60px;
+    display: flex;
+    align-items: center;
+   
+}
+.redes{
+    padding-right: 10px;
+}
+.redes:hover{
+    color: #F6C270;
+}
+
